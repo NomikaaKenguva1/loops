@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //even numbers
+       document.write("even numbers between 1 to 20"+"<br>");
+        for(var i=1;i<=20;i++){
+            if(i%2==0){
+                document.write(i+"<br>");
+            }
+            
+        }
+
+        //multiplication table
+        
+        document.write("Multiples of 5:" + "<br>");
+        for (var a = 1; a <= 10; a++) {
+        var res = 5 * a;
+        document.write("5 x " + a + " = " + res + "<br>");
+        }
+
+        
+        // document.write(`Multiplication table :"<br>"`);
+        // for (var num = 1; num <= 5; num++) {
+        // for (var i = 1; i <= 5; i++) {
+        // const result = num * i;
+        // document.write(num + ' x ' + i + ' = ' + result + '<br>');
+
+        // }
+        // document.write("<br>");
+        // }
+
+        //odd numbers
+        document.write("odd numbers from 30 to 1"+"<br>");
+        var i=30;
+        while(i>=1)
+        {
+            if(i%2==1){
+                document.write(i+"<br>");
+            }
+            i--;
+        }
+
+        //sum of numbers
+        document.write("sum of numbers"+"<br>");
+        var i=1;
+        var sum=0;
+        do{
+            sum+=i;
+            i++;
+        }
+        while(i<=10)
+        document.write("sum is: " +sum);
+    
+    </script>
+
+</body>
+</html>
